@@ -1,8 +1,18 @@
+body {
+    margin: 0;
+}
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 400px;
+    height: 100vh;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 input {
