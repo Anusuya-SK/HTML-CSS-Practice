@@ -13,5 +13,23 @@
         <input name="password" placeholder="Enter an password" type="text" />
         <button type="submit">Submit</button>
     </form>
+    <figure>
+        <!-- <picture>
+            <source srcset="tulips.avif" type="image/avif"> //checks this if format support ignore others
+            <source srcset="tulips.webp" type="image/webp"> //first failed it checks here, if supports it loads
+            <img
+                src="tulips.jpg"
+                alt="Red tulips in neat rows under a blue sky"
+                width="1200" height="800"
+                loading="lazy"> //Final the above 2 didn't worked.
+        </picture> -->
+        <img src="./images/sunrise.webp" alt="Sunrise" loading="lazy" />
+        <figcaption>Orange sun rising above the horizon</figcaption>
+    </figure>
 </body>
 </html>
+
+<!-- <picture> = a smart container for responsive and format-aware images.
+<source> = “try this image if you support it.”
+<img> = guaranteed fallback if none of the <source> types work. -->
+

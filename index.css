@@ -6,7 +6,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 400px;
 }
 
 h2 {
@@ -16,4 +16,9 @@ h2 {
 
 input {
     margin-bottom: 10px;
+}
+
+img {
+    height: 20em;
+    width: 20em;
 }
