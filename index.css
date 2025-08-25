@@ -1,5 +1,10 @@
+/* em unit choose direct parent size, rem unit choose root parent size */
 body {
     margin: 0;
+    font-size: 15px;
+}
+div {
+    margin: 1rem 2rem;
 }
 form {
     display: flex;
@@ -19,6 +24,24 @@ input {
 }
 
 img {
-    height: 20em;
-    width: 20em;
+    height: 20rem;
+    width: 20rem;
+}
+
+#animate-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: rgba(255, 0, 0, 0.754);
+    color: #fff;
+    border: none;
+    transition: 0.8s;
+}
+
+#animate-btn:hover {
+    background-color: rgba(0, 30, 255, 0.754);
+    transition: 0.8s;
+    /* box-shadow: h-offset v-offset blur-radius spread-radius color inset; */
+    box-shadow: 2px 2px 10px 2px white; 
+    /* text-shadow: h-offset v-offset blur-radius color; */
+    text-shadow: 2px 2px 5px red;
 }
